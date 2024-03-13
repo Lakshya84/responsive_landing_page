@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 1rem;
+}
+
+
+nav {
+    padding: 3px;
+    margin: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10;
+    display: flex;
+}
+
+nav li {
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav form {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+nav form input[type="text"] {
+    border: none;
+    border-radius: 5px 0 0 5px;
+    padding: 0.5rem;
+    outline: none;
+}
+
+nav form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+
+main {
+    padding: 2rem;
+}
+
+.Heading {
+    text-align: center;
+    text-size-adjust: 10px;
+
+
+
+}
+
+#jobs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.job {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    width: 31%;
+    background-color: #007BFF;
+    border-radius: 30px;
+}
+
+.job h3 {
+    margin-top: 0;
+}
+
+#about {
+    margin-top: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+#nav-log{
+    background-color: #0f0f0e;
+    color: rgb(226, 81, 226);
+    padding: 8px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#nav-login{
+    background-color: #0f0f0e;
+    color: rgb(107, 226, 81);
+    padding: 8px;
+    text-align: center;
+    border-radius: 8px;
+}
